@@ -1,0 +1,46 @@
+.task {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    margin: 10px 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box-content i {
+    font-size: 12px;
+
+    color: rgb(255, 255, 255);
+}
+
+.logout {
+    margin: auto;
+}
+
+hr {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    height: 5px;
+    border-radius: 5px;
+    width: 1%;
+
+}
+
+.box-content textarea,
+.box-content input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 100%;
+}
+
+#add-box textarea {
+    resize: none;
+    height: 90px;
+}
+
+.bi:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 6px rgb(187, 26, 125);
+}

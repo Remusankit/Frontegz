@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(-45deg, #e97070, #ff0000, #1100ff, #a200ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.logofl {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,.1);
+}
+.logofl2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,.1);
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    margin-bottom: 150px;
+}
+
+
+.inp-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.center {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    cursor: default;
+}
+
+.form-box form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    box-shadow: 0 30px 40px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: #000000;
+    color: rgb(241, 86, 86);
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #6204faa2;
+}
+
+label {
+    margin: auto;
+
+}
+
+.inp-box {
+    width: 50%;
+}
+
+#register-box input,
+#login-box input {
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.5);
+}
+
+#register-box input,
+#login-box input,
+#add-box input,
+#add-box textarea {
+    width: 50%;
+    height: 20px;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.form-box {
+    display: none;
+}
+
+.topnav .nav div:hover {
+    color: rgb(68, 0, 255);
+    box-shadow: 0 30px 40px rgba(0,0,0,.1)
+}
